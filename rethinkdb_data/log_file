@@ -1,0 +1,57 @@
+2016-01-21T08:39:49.441074000 0.602558s notice: Recursively removing directory /Users/jake.howard/Desktop/sites/today-list/rethinkdb_data/tmp
+2016-01-21T08:39:49.442684000 0.604171s notice: Initializing directory /Users/jake.howard/Desktop/sites/today-list/rethinkdb_data
+2016-01-21T08:39:49.442759000 0.604242s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/jake.howard/Desktop/sites/today-list/rethinkdb_data' did not already exist or is empty.)
+2016-01-21T08:39:49.442800000 0.604283s notice: Running rethinkdb 2.2.2 (CLANG 7.0.2 (clang-700.1.81))...
+2016-01-21T08:39:49.446832000 0.608315s notice: Running on Darwin 14.1.0 x86_64
+2016-01-21T08:39:49.446863000 0.608345s notice: Loading data from directory /Users/jake.howard/Desktop/sites/today-list/rethinkdb_data
+2016-01-21T08:39:49.514249000 0.675731s info: Automatically using cache size of 1286 MB
+2016-01-21T08:39:49.515315000 0.676797s notice: Listening for intracluster connections on port 29015
+2016-01-21T08:39:49.518447000 0.679929s notice: Listening for client driver connections on port 28015
+2016-01-21T08:39:49.518593000 0.680075s notice: Listening for administrative HTTP connections on port 8080
+2016-01-21T08:39:49.518597000 0.680079s notice: Listening on addresses: 127.0.0.1, ::1
+2016-01-21T08:39:49.518598000 0.680080s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-01-21T08:39:49.518600000 0.680082s notice: Server ready, "Jake_H_local_s6s" 2a28163b-437f-4f97-869a-31d7367d46f0
+2016-01-21T08:39:50.371611000 1.533094s notice: A newer version of the RethinkDB server is available: 2.2.3-1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-01-21T08:40:41.729267000 52.892011s info: Table 9a80d6f8-b722-4288-9b5d-91eb3edc0993: Added replica on this server.
+2016-01-21T08:40:43.427668000 54.590412s info: Table 9a80d6f8-b722-4288-9b5d-91eb3edc0993: Starting a new Raft election for term 1.
+2016-01-21T08:40:43.439231000 54.601974s info: Table 9a80d6f8-b722-4288-9b5d-91eb3edc0993: This server is Raft leader for term 1. Latest log index is 0.
+2016-01-21T08:40:45.990005000 57.152846s info: Table f2e2f7a1-e40c-4b4c-a09e-f109ccae09f4: Added replica on this server.
+2016-01-21T08:40:47.501105000 58.663946s info: Table f2e2f7a1-e40c-4b4c-a09e-f109ccae09f4: Starting a new Raft election for term 1.
+2016-01-21T08:40:47.512211000 58.675052s info: Table f2e2f7a1-e40c-4b4c-a09e-f109ccae09f4: This server is Raft leader for term 1. Latest log index is 0.
+2016-01-21T08:40:49.404893000 60.567782s info: Table 8397475e-ef13-448c-a9a4-133eae60e333: Added replica on this server.
+2016-01-21T08:40:50.528360000 61.691297s info: Table 8397475e-ef13-448c-a9a4-133eae60e333: Starting a new Raft election for term 1.
+2016-01-21T08:40:50.536752000 61.699689s info: Table 8397475e-ef13-448c-a9a4-133eae60e333: This server is Raft leader for term 1. Latest log index is 0.
+2016-01-21T08:40:54.280399000 65.443434s info: Table cb3886d3-0526-427e-bfc1-5e356ff23429: Added replica on this server.
+2016-01-21T08:40:55.638344000 66.801379s info: Table cb3886d3-0526-427e-bfc1-5e356ff23429: Starting a new Raft election for term 1.
+2016-01-21T08:40:55.649905000 66.812980s info: Table cb3886d3-0526-427e-bfc1-5e356ff23429: This server is Raft leader for term 1. Latest log index is 0.
+2016-01-21T09:06:08.568900000 1573.038135s notice: Server got SIGINT from pid 332, uid 502; shutting down...
+2016-01-21T09:06:08.569086000 1573.038320s notice: Shutting down client connections...
+2016-01-21T09:06:08.569189000 1573.038423s notice: All client connections closed.
+2016-01-21T09:06:08.569194000 1573.038428s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-01-21T09:06:08.578623000 1573.047857s notice: Storage engine shut down.
+2016-01-26T08:05:34.579254000 0.047174s notice: Running rethinkdb 2.2.2 (CLANG 7.0.2 (clang-700.1.81))...
+2016-01-26T08:05:34.582866000 0.050783s notice: Running on Darwin 14.1.0 x86_64
+2016-01-26T08:05:34.582888000 0.050804s notice: Loading data from directory /Users/jake.howard/Desktop/sites/today-list/rethinkdb_data
+2016-01-26T08:05:34.612770000 0.080686s info: Automatically using cache size of 100 MB
+2016-01-26T08:05:34.612777000 0.080694s warn: Cache size does not leave much memory for server and query overhead (available memory: 680 MB).
+2016-01-26T08:05:34.612781000 0.080698s warn: Cache size is very low and may impact performance.
+2016-01-26T08:05:34.614124000 0.082041s notice: Listening for intracluster connections on port 29015
+2016-01-26T08:05:34.663961000 0.131926s notice: Listening for client driver connections on port 28015
+2016-01-26T08:05:34.664334000 0.132300s notice: Listening for administrative HTTP connections on port 8080
+2016-01-26T08:05:34.664336000 0.132301s notice: Listening on addresses: 127.0.0.1, ::1
+2016-01-26T08:05:34.664337000 0.132302s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-01-26T08:05:34.664349000 0.132315s notice: Server ready, "Jake_H_local_s6s" 2a28163b-437f-4f97-869a-31d7367d46f0
+2016-01-26T08:05:35.617840000 1.085806s notice: A newer version of the RethinkDB server is available: 2.2.3-1. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-01-26T08:05:35.649783000 1.117749s info: Table 9a80d6f8-b722-4288-9b5d-91eb3edc0993: Starting a new Raft election for term 2.
+2016-01-26T08:05:35.665276000 1.133242s info: Table 9a80d6f8-b722-4288-9b5d-91eb3edc0993: This server is Raft leader for term 2. Latest log index is 2.
+2016-01-26T08:05:35.693518000 1.161484s info: Table cb3886d3-0526-427e-bfc1-5e356ff23429: Starting a new Raft election for term 2.
+2016-01-26T08:05:35.711166000 1.179132s info: Table cb3886d3-0526-427e-bfc1-5e356ff23429: This server is Raft leader for term 2. Latest log index is 2.
+2016-01-26T08:05:35.718971000 1.186937s info: Table 8397475e-ef13-448c-a9a4-133eae60e333: Starting a new Raft election for term 2.
+2016-01-26T08:05:35.747365000 1.215331s info: Table 8397475e-ef13-448c-a9a4-133eae60e333: This server is Raft leader for term 2. Latest log index is 2.
+2016-01-26T08:05:36.542282000 2.010248s info: Table f2e2f7a1-e40c-4b4c-a09e-f109ccae09f4: Starting a new Raft election for term 2.
+2016-01-26T08:05:36.553435000 2.021401s info: Table f2e2f7a1-e40c-4b4c-a09e-f109ccae09f4: This server is Raft leader for term 2. Latest log index is 2.
+2016-01-26T09:06:31.076438000 3616.369863s notice: Server got SIGINT from pid 332, uid 502; shutting down...
+2016-01-26T09:06:31.076598000 3616.370023s notice: Shutting down client connections...
+2016-01-26T09:06:31.076837000 3616.370262s notice: All client connections closed.
+2016-01-26T09:06:31.076843000 3616.370267s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-01-26T09:06:31.093421000 3616.386846s notice: Storage engine shut down.
